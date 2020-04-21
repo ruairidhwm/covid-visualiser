@@ -1,13 +1,24 @@
 {
-  "name": "covidmap",
+  "name": "covid-visualiser",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "author": "Ruairidh Wynne-McHardy",
+  "keywords": [
+    "coronavirus",
+    "react-map-gl",
+    "covid19",
+    "corona",
+    "react",
+    "datavis"
+  ],
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-map-gl": "^5.2.3",
     "react-scripts": "3.4.1"
   },
   "scripts": {
